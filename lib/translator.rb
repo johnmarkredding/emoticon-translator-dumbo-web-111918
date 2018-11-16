@@ -1,5 +1,6 @@
 # require modules here
 require 'yaml'
+
 def load_library(path)
   # code goes here
   emos = YAML.load_file(path)
