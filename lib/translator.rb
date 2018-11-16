@@ -16,6 +16,7 @@ end
 
 def get_japanese_emoticon(path, emoti)
   emo_hash = load_library(path)
+  emo_hash["get_meaning"][]
 end
 
 def get_english_meaning
