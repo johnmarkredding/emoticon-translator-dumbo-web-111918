@@ -11,8 +11,6 @@ def load_library(path)
     new_hash["get_meaning"][v_arr[1]] = k_word
     new_hash["get_emoticon"][v_arr[0]] = v_arr[1]
   end
-  
-  new_hash["get_emoticon"] = emos.invert
   new_hash
 end
 
