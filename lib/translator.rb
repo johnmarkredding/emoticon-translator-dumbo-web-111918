@@ -1,8 +1,14 @@
 require 'yaml'
 
 def load_library(path)
-  new_hash = {}
+  new_hash = {
+  }
   emos = YAML.load_file(path)
+  
+  emos.each || do |k_word,v_arr|
+    v_arr
+  end
+  
   new_hash["get_meaning"] = emos
   new_hash["get_emoticon"] = emos.invert
   new_hash
