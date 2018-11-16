@@ -21,5 +21,5 @@ end
 
 def get_english_meaning(path, emoti)
   emo_hash = load_library(path)
-  emo_hash["get_meaning"][emoti]
+  emo_hash["get_meaning"][emoti] != nil ? emo_hash["get_meaning"][emoti] : "Sorry, that emoticon was not foun
 end
