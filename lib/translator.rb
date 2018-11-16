@@ -21,5 +21,5 @@ end
 
 def get_english_meaning(path, emoti)
   emo_hash = load_library(path)
-  emo_hash["get_meaning"]
+  emo_hash["get_meaning"][emoti]
 end
