@@ -1,5 +1,5 @@
 # require modules here
-require 'emoticon-translator-dumbo-web-111918/lib/emoticons.yml'
+require_relative 'emoticons.yml'
 def load_library
   # code goes here
 end
